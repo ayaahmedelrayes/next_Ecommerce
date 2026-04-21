@@ -1,0 +1,10 @@
+# Frontend
+iti-products-app/node_modules/
+iti-products-app/.next/
+
+# Backend
+backend/node_modules/
+
+# Environment files
+**/.env
+**/.env.local

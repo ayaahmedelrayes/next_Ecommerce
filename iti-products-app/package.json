@@ -1,0 +1,36 @@
+{
+  "name": "iti-products-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "server": "json-server --watch db.json --port 4000"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayaahmedelrayes/next_Ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/ayaahmedelrayes/next_Ecommerce/issues"
+  },
+  "homepage": "https://github.com/ayaahmedelrayes/next_Ecommerce#readme"
+}

@@ -1,0 +1,25 @@
+/* make all carousel images the same height */
+.carousel img {
+  height: 200px;
+  object-fit: contain;
+  background-color: #f8f9fa;
+}
+
+/* add hover effect to cards */
+.card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+html, body {
+  height: 100%;
+}
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
